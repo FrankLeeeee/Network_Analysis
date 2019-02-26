@@ -68,3 +68,6 @@ def get_avg_cluster_coef(g):
 
 def get_avg_distance(g):
     return nx.algorithms.average_shortest_path_length(g)
+
+def get_diameter(g):
+    return nx.diameter(g)
